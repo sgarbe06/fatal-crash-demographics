@@ -1,13 +1,30 @@
-#US Fatal Crash Demographics Dashboard
-This dashboard explores demographic patterns among people involved in fatal motor vehicle crashes in the United States.
+# US Fatal Crash Demographics Dashboard
 
-Features:
+This Shiny dashboard explores demographic patterns among people involved in fatal motor vehicle crashes in the United States.
 
-State filtering
-Person type filtering
-Age distribution analysis
-Alcohol involvement analysis
-Monthly patterns
-Live App: https://sgarbe061506.shinyapps.io/Assignment10/
+## Features
 
-Author: Sydney Garbe
+- Filter data by state
+- Filter by person type (driver, passenger, pedestrian, etc.)
+- Explore age group distributions
+- Analyze alcohol involvement in fatal crashes
+- Examine monthly crash patterns
+- Interactive dashboard with multiple visualizations
+
+## Live Application
+
+https://sgarbe061506.shinyapps.io/Assignment10/
+
+## Files
+
+- `app.R` - Main Shiny application
+- `people_small.rds` - Processed dataset used by the dashboard
+- `README.md` - Project documentation
+
+## Author
+
+Sydney Garbe
+
+## Course
+
+STAT 442 – Exploratory and Cloud-Based Data Analysis
